@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Head section-->
+<head>
+    <!--meta tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Decobuilt</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--Styles and icons--> 
+    <link rel="icon" type="image/png" href="images/Logo-decobuilt.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css"> 
+    <link rel="stylesheet" href="css/media.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" >
+</head>
+    <!--Head section-->
+<body data-bs-spy="scroll" data-bs-target="#side-navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary rounded-2" tabindex="0"> 
+    <header class="header">
+        <div class="header-container">
+            <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <span class="toggler-line"></span>
+                <span class="toggler-line"></span>
+                <span class="toggler-line"></span>
+            </button>
+            <div class="header-contacts">
+                <span>&zwj;+56-78-73-436</span>
+                <span><a href="mailto:decobuilt@gmail.com">decobuilt@gmail.com</a></span>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" data-bs-backdrop="static" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Decobuilt</h5>
+                </div>
+                <div class="offcanvas-body"> 
+                    <nav id="side-navbar" class="navbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#process">How we work</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="offcanvas-footer">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li> 
+                    </ul>
+                </div>
+            </div>
+        </div> 
+    </header>
+    <section id="home">
+        <div id="home-slider" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#home-slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">01</button>
+                <button type="button" data-bs-target="#home-slider" data-bs-slide-to="1" aria-label="Slide 2">02</button>
+                <button type="button" data-bs-target="#home-slider" data-bs-slide-to="2" aria-label="Slide 3">03</button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-item-content">
+                        <div class="carousel-item-desc">
+                            <h2>Enhance Your Construction Projects</h2>
+                            <p>
+                                We provide full support in developing, creating, and constructing of industrial solutions.
+                            </p>
+                            <a href="#projects">See projects</a>
+                            <a href="#contacts">Contact us</a>
+                        </div>
+                        <div class="carousel-item-image-container">
+                            <div class="carousel-item-image-border"></div>
+                            <img src="images/zero-take-WvHrrR1C5Po-unsplash-next.png" alt="Carousel image desc" class="carousel-item-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-item-content">
+                        <div class="carousel-item-desc">
+                            <h2>Create Your Dream Environment</h2>
+                            <p>
+                                Our team of professional designers can help you create modern and luxurious interior design.
+                            </p>
+                            <a href="#projects">See projects</a>
+                            <a href="#contacts">Contact us</a>
+                        </div>
+                        <div class="carousel-item-image-container">
+                            <div class="carousel-item-image-border"></div>
+                            <img src="images/r-architecture-2gDwlIim3Uw-unsplash-next.jpg" alt="Carousel image desc" class="carousel-item-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-item-content">
+                        <div class="carousel-item-desc">
+                            <h2>Concept Developing In Details</h2>
+                            <p>
+                                The furniture we produce is designed by experienced decorators and created by professional specialist. 
+                            </p>
+                            <a href="#projects">See projects</a>
+                            <a href="#contacts">Contact us</a>
+                        </div>
+                        <div class="carousel-item-image-container">
+                            <div class="carousel-item-image-border"></div>
+                            <img src="images/jason-wang-NxAwryAbtIw-unsplash-next.jpg" alt="Carousel image desc" class="carousel-item-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-wrapper">
+            <div class="about-block-slider">
+                <div class="about-title"> 
+                    <h2>The Decobuilt: Modern Interior<br> Design Studio</h2>
+                </div>
+                <div id="about-slider" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/steven-ungermann-CVTmLMv5oG4-unsplash.jpg" alt="About slider image desc" class="about-slider-img">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/kam-idris-_HqHX3LBN18-unsplash.jpg" alt="About slider image desc" class="about-slider-img">
+                        </div>
+                        <div class="carousel-item"> 
+                            <img src="images/francesca-tosolini-hCU4fimRW-c-unsplash.jpg" alt="About slider image desc" class="about-slider-img">
+                        </div>
+                    </div>  
+                    <button class="carousel-control-next" type="button" data-bs-target="#about-slider" data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div> 
+                <div class="about-cats"> 
+                    <div class="about-categories-container">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link category active" id="design-tab" data-bs-toggle="tab" data-bs-target="#design-tab-pane" type="button" role="tab" aria-controls="design-tab-pane" aria-selected="true"><i class="fa-solid fa-compass-drafting"></i>Designing</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link category" id="furniture-tab" data-bs-toggle="tab" data-bs-target="#furniture-tab-pane" type="button" role="tab" aria-controls="furniture-tab-pane" aria-selected="false"><i class="fa-solid fa-couch"></i> Furniture</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link category" id="construction-tab" data-bs-toggle="tab" data-bs-target="#construction-tab-pane" type="button" role="tab" aria-controls="construction-tab-pane" aria-selected="false"><i class="fa-solid fa-house-chimney"></i>Construction</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link category" id="complex-tab" data-bs-toggle="tab" data-bs-target="#complex-tab-pane" type="button" role="tab" aria-controls="complex-tab-pane" aria-selected="false"><i class="fa-solid fa-house-chimney-user"></i> Complex solutions</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="design-tab-pane" role="tabpanel" tabindex="0">
+                                <p>
+                                    Our team of professional decorators can help you make a perfect interior design.
+                                </p>
+                                <a href="#services" class="tab-link">All services</a>
+                            </div>
+                            <div class="tab-pane fade" id="furniture-tab-pane" role="tabpanel" tabindex="0">
+                                <p>
+                                    You can order custom furniture with your own design, let us create a perfect design for you or
+                                    choose among wide range of ready furniture solutions in our shop.  
+                                </p>
+                                <a href="#services" class="tab-link">All services</a>
+                            </div>
+                            <div class="tab-pane fade" id="construction-tab-pane" role="tabpanel" tabindex="0">
+                                <p>
+                                    We provide construciton services of different types.
+                                </p>
+                                <a href="#services" class="tab-link">All services</a>
+                            </div>
+                            <div class="tab-pane fade" id="complex-tab-pane" role="tabpanel" tabindex="0">
+                                <p>
+                                    Our complex solutions include all range of our services.
+                                </p>
+                                <a href="#" class="tab-link">All services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-info-block">
+                <h3>about us</h3>
+                <h4>At Decobuilt we believe that interior design is the art and science.</h4>
+                <p>
+                    We have been in this business since 2015, took part in 100 events and won almost 180 awards.
+                    Our team is a team of professionals specialized in interior design, furniture production and complex industrial solutions.
+                </p>
+                <p>We provide a wide range of services, including:</p>
+                <ul class="about-list">
+                    <li class="li-text"><i class="fa-regular fa-square-check"></i> concept development</li>
+                    <li class="li-text"><i class="fa-regular fa-square-check"></i> measurements</li>
+                    <li class="li-text"><i class="fa-regular fa-square-check"></i> design<li>
+                    <li class="li-text"><i class="fa-regular fa-square-check"></i> production</li>
+                    <li class="li-text"><i class="fa-regular fa-square-check"></i> delivery</li>
+                    <li class="li-text"><i class="fa-regular fa-square-check"></i> installation</li>
+                    <li class="li-text"><i class="fa-regular fa-square-check"></i> construction</li>
+                    <li class="li-text"><i class="fa-regular fa-square-check"></i> deployment</li>
+                </ul>
+                <a href="#process" class="about-link">Explore</a>
+            </div>
+        </div>
+    </section>
+    <section id="process">
+        <div class="process-wrapper">
+            <div class="process-block">
+                <h2>Every project we take follows these main stages</h2>
+                <div class="progress-container">
+                    <article class="process-item">
+                        <div class="process-icon">
+                            <i class="fa-solid fa-swatchbook"></i>
+                        </div>
+                        <div class="process-text">
+                            <h3>Planning</h3>
+                            <p>
+                                We provide full support on all stages of cooperation with us starting with planning, thus you can always
+                                be sure that every project we take is completed within pre-agreed term.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="process-item">
+                        <div class="process-icon">
+                            <i class="fa-solid fa-cubes"></i>
+                        </div>
+                        <div class="process-text">
+                            <h3>Approving</h3>
+                            <p>
+                                We guarantee high quality results and therefore we pay special attention 
+                                ensuring that all the wishes of the client are taken into account in the future project. 
+                            </p>
+                        </div>
+                    </article>
+                    <article class="process-item">
+                        <div class="process-icon">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </div>
+                        <div class="process-text">
+                            <h3>Designing</h3>
+                            <p>
+                                After the main concept is approved we proceed to the development of the design and scheme of the project.  
+                            </p>
+                        </div>
+                    </article>
+                    <article class="process-item">
+                        <div class="process-icon">
+                            <i class="fa-solid fa-flag-checkered"></i>
+                        </div>
+                        <div class="process-text">
+                            <h3>Production</h3>
+                            <p>
+                                Production is carried out according to a pre-agreed plan and in accordance with all requirements and standards.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="process-block">
+                <h4>Benefits you get when using our services</h4>
+                <div class="image-process">
+                    <img src="images/r-architecture-2gDwlIim3Uw-unsplash-next.jpg" alt="Image process description">
+                    <div class="process-link-container">
+                        <a href="#contacts"><span>Have a question? Contact us</span> <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="benefits-container">
+                    <article class="benefit-item">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <h5>In time</h5>
+                        <p>
+                            Every time we take an order - we always finish it in previuosly agreed time.
+                        </p>
+                    </article>
+                    <article class="benefit-item">
+                        <i class="fa-solid fa-truck-fast"></i>
+                        <h5>Delivery</h5>
+                        <p>
+                            When working with us you can always expect fast delivery and high quality installation.
+                        </p>
+                    </article>
+                    <article class="benefit-item">
+                        <i class="fa-solid fa-handshake"></i>
+                        <h5>Warranty</h5>
+                        <p>
+                            Every time you buy our furniture products, you get a warranty without exception.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section id="services">
+        <div class="services-wrapper">
+            <div class="services-block">
+                <h2>Interiors that are rich in volume </h2>
+                <div class="tab-content service-desc-container" id="pills-tabContent">
+                    <div class="tab-pane fade service-desc-item show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                        <img src="images/chairs-gca9598c52_1920.jpg" alt="Service image decsription">
+                        <h3>Designing </h3>
+                        <p>
+                            After the main concept is approved we proceed to the development of the design and scheme of the project. Our team of professional decorators can help you make a perfect interior design.
+                            Every time we take an order - we always finish it in previuosly agreed time. When working with us you can always expect fast delivery.
+                        </p>
+                        <a href="#" class="service-desc-link">Get started</a>                     
+                    </div>
+                    <div class="tab-pane fade service-desc-item" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                        <img src="images/levi-stute-wcvI42MwZpQ-unsplash.jpg" alt="Service image decsription">
+                        <h3>Delivery</h3>
+                        <p>
+                            Every time we take an order - we always finish it in previuosly agreed time. When working with us you can always expect fast delivery and high quality installation.
+                            Every time we take an order - we always finish it in previuosly agreed time. When working with us you can always expect fast delivery.
+                        </p>
+                        <a href="#" class="service-desc-link">Get started</a> 
+                    </div>
+                    <div class="tab-pane fade service-desc-item" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                        <img src="images/jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg" alt="Service image decsription">
+                        <h3>Construction</h3>
+                        <p>
+                            We provide construciton services of different types. Our Complex Solutions cover all stages to complete your project from idea to deployment.
+                            Every time we take an order - we always finish it in previuosly agreed time. When working with us you can always expect fast delivery.
+                        </p>
+                        <a href="#" class="service-desc-link">Get started</a>
+                    </div> 
+                </div>
+            </div> 
+            <div class="services-block">
+                <h4>This is some placeholder headign text for associated content.</h4>
+                <div class="services-cats-container">
+                    <ul class="nav nav-pills mb-3 services-cats-list" id="pills-tab" role="tablist">
+                        <li class="nav-item services-cats-item active" role="presentation">
+                            <h5>Designing</h5>
+                            <div class="services-cats-item-desc active">
+                                <p>
+                                    Every time we take an order - we always finish it in previuosly agreed time. When working with us you can always expect fast delivery. 
+                                </p>
+                                <button class="nav-link service-btn active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Explore</button>
+                            </div>
+                        </li>
+                        <li class="nav-item services-cats-item" role="presentation">
+                            <h5>Delivery</h5>
+                            <div class="services-cats-item-desc">
+                                <p>
+                                    Every time we take an order - we always finish it in previuosly agreed time. When working with us you can always expect fast delivery. 
+                                </p>
+                                <button class="nav-link service-btn" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Explore</button>
+                            </div>
+                        </li>
+                        <li class="nav-item services-cats-item" role="presentation">
+                            <h5>Construction</h5>
+                            <div class="services-cats-item-desc">
+                                <p>
+                                    Every time we take an order - we always finish it in previuosly agreed time. When working with us you can always expect fast delivery. 
+                                </p>
+                                <button class="nav-link service-btn" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Explore</button>
+                            </div>
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Interior design projects portfolio</h2>
+        <div class="projects-wrapper">
+            <div class="gallery-block">
+                <div class="gallery-container">
+                    <div class="row">
+                        <div class="col">
+                            <img src="images/aaron-huber-G7sE2S4Lab4-unsplash.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/chairs-gca9598c52_1920.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/interior-g84fa2df88_1920.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/jason-wang-NxAwryAbtIw-unsplash-next.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/kam-idris-_HqHX3LBN18-unsplash.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/lissete-laverde-Qso9JkywwpM-unsplash.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/aaron-huber-G7sE2S4Lab4-unsplash.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/chairs-gca9598c52_1920.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/interior-g84fa2df88_1920.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/jason-wang-NxAwryAbtIw-unsplash-next.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/kam-idris-_HqHX3LBN18-unsplash.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/lissete-laverde-Qso9JkywwpM-unsplash.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <img src="images/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/r-architecture-2gDwlIim3Uw-unsplash-next.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/ralph-ravi-kayden-mR1CIDduGLc-unsplash.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/francesca-tosolini-hCU4fimRW-c-unsplash.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/steven-ungermann-Bo-fW5KvdQI-unsplash.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/steven-ungermann-CVTmLMv5oG4-unsplash.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/r-architecture-2gDwlIim3Uw-unsplash-next.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/ralph-ravi-kayden-mR1CIDduGLc-unsplash.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/francesca-tosolini-hCU4fimRW-c-unsplash.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/steven-ungermann-Bo-fW5KvdQI-unsplash.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                        <div class="col">
+                            <img src="images/steven-ungermann-CVTmLMv5oG4-unsplash.jpg" alt="Wooden kitchen with modern oak furniture" class="portfolio-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-desc-container">
+                <h3>We create designs that inspire for real</h3> 
+                <p> 
+                    Every time we take an order - we always finish it in previuosly agreed time. When working with us you can always expect fast delivery and high quality installation.
+                </p>
+                <p>
+                    Every time you buy our furniture products, you get a warranty without exception. Inspire your space through art and design. trusted by 30, 000 brands and
+                    organizations around the world of all sizes. 
+                </p>
+                <button class="scroll-gallery-btn">Scroll <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        <div class="gallery-expand-container">
+            <div class="expand-item">
+                <div class="expanded-image-header">
+                    <h4>..</h4>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <img src="#" alt="Image description" class="expanded-image">
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <div class="contacts-wrapper">
+            <div class="contacts-block">
+                <div class="contacts-headings">
+                    <h2>Live for youself, not by youself with Decobuilt</h2>
+                    <p>
+                        We have been in this business since 2015, took part in 100 events and won almost 180 awards. 
+                        Our team is a team of professionals specialized in interior design, furniture production and complex industrial solutions.
+                    </p>
+                </div>
+                <div class="contacts-desc">
+                    <h3 class="heading-c">General information</h3>
+                    <p>
+                        Reach us at <a href="mailto:decobuilt@gmail.com">decobuilt@gmail.com</a>
+                        and we will contact you back.
+                    </p>
+                    <h4 class="heading-c">join Decobuilt?</h4>
+                    <p>
+                        If you want to become a member of our team dont` hesitate to contacts us.
+                    </p>
+                    <h5 class="heading-c">Free consultation?</h5>
+                    <p>
+                        Call us or fill the contact form and we will contact you very soon. 
+                    </p>
+
+                    <div class="social-media">
+                        <ul>
+                            <li>Follow us</li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="contacts-block">
+                <h6>Let`s Get In Touch</h6>
+                <div class="form-container">
+                    <form id="form" novalidate action="form/form.php"  method="post">
+                        <div class="inputs-block">
+                            <label for="fname">First name</label><span id="err-fname" class="text-danger">*</span>
+                            <input type="text" id="fname" name="fname" placeholder="John">
+                        </div>
+                        <div class="inputs-block">
+                            <label for="email">Email</label><span id="err-email" class="text-danger">*</span>
+                            <input type="email" id="email" name="email" placeholder="decobuilt@gmail.com">
+                        </div>
+                        <div class="inputs-block">
+                            <label for="tel">Phone</label><span id="err-tel" class="text-danger">*</span>
+                            <input type="tel" id="tel" name="tel" placeholder="+(142)-045-546-56-07">
+                        </div>
+                        <div class="inputs-block">
+                            <label>Message</label><span id="err-mssg" class="text-danger">*</span>
+                            <textarea id="mssg" name="mssg" placeholder="Message.."></textarea>
+                        </div>
+                        <button type="submit" id="form-btn">Send</button>
+                    </form>      
+                </div>
+            </div>
+        </div>
+    </section> 
+    <div class="modal fade" id="form-modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5">Feedback form</h1>
+                    <button data-bs-dismiss="modal" class="modal-close-btn"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="modal-body">
+                    <p>Thank you for submitting the form! We will contact you very soon.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="footer-wrapper">
+            <div class="footer-info">
+                <h2>Decobuilt</h2>
+                <h3>&zwj;+56-78-73-436</h3>
+                <h4><a href="mailto:decobuilt@gmail.com">decobuilt@gmail.com</a></h4>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2023. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <!--Javascript files-->
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.7/jquery.inputmask.min.js"></script> 
+    <script src="js/script.js"></script>
+    <script src="js/form.js"></script> 
+    <!--Bootstrap files-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <!--Javascript files-->
+</body>
+</html>
